@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Spotify - Hritujeet's WebMusicPlayer</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/utils.css" />
+    </head>
+
+    <body>
+        <main class="container flex align-center">
+            <!-- Sidebar -->
+            <div class="left padding-defualt" id="side-bar">
+                <div
+                    class="navigation rounded padding-2 flex flex-column justify-center bg-dark-grey"
+                >
+                    <div class="logo flex align-center space-between">
+                        <img
+                            src="Assets/logo.svg"
+                            class="invert pointer"
+                            id="logo"
+                            width="100"
+                            alt="Spotify Logo"
+                        />
+                        <img src="Assets/cross.svg" class="invert pointer cross" id="cross" width="30" alt="">
+                    </div>
+                    <ul>
+                        <li class="flex align-center pointer gap-1">
+                            <img
+                                src="Assets/home.svg"
+                                class="invert"
+                                alt="Home Icon"
+                                width="30"
+                            />
+                            <span>Home</span>
+                        </li>
+                        <li class="flex align-center pointer gap-1">
+                            <img
+                                src="Assets/search.svg"
+                                class="invert"
+                                alt="Search Icon"
+                                width="30"
+                            />
+                            <span>Search</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <section class="library rounded padding-defualt bg-dark-grey">
+                    <header class="library-heading pointer">
+                        <img
+                            class="invert"
+                            src="Assets/library.svg"
+                            alt="Library Icon"
+                        />
+                        <h2>Your Library</h2>
+                    </header>
+                    <ul class="song-list"><h5>Nothing to play - No Playlist Opened</h5></ul>
+                </section>
+            </div>
+
+            <!-- Main Content -->
+            <section
+                class="right padding-defualt bg-dark-grey rounded"
+                id="main-content"
+            >
+                <header
+                    class="header flex align-center space-between bg-grey rounded"
+                >
+                    <div class="left-header flex align-center gap-1">
+                        <button class="bg-dark-grey pointer" id="hamburger">
+                            <img
+                                src="Assets/home.svg"
+                                class="invert"
+                                alt="Home Icon"
+                                width="30"
+                            />
+                        </button>
+                    </div>
+                    <div class="right-header flex align-center gap-1">
+                        <button
+                            class="signup pointer padding-defualt hoverAnimation"
+                        >
+                            Sign up
+                        </button>
+                        <button
+                            class="login pointer padding-defualt hoverAnimation"
+                        >
+                            Log in
+                        </button>
+                    </div>
+                </header>
+
+                <section class="spotify-playlists">
+                    <h1 style="font-size: 30px">Spotify Playlists - Random Playlists by Hritujeet</h1>
+                    <div class="card-container flex">
+                        <!-- Playlist Cards -->
+                        <!-- Repeat card using JS-->
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer
+            style="color: black; font-size: small; font-weight: 60;"
+            class="playbar bg-dark-grey flex space-between align-center align-center"
+        >
+            <div class="song-info invert flex flex-column gap-1">
+                <span>No Song selected for playing</span>
+                <div class="song-time"></div>
+            </div>
+            <div
+                class="controls-container flex flex-column space-between align-center gap-1"
+            >
+                <div class="controls flex gap-1">
+                    <img
+                        src="Assets/previous-song.svg"
+                        class="pointer invert"
+                        id="previous-song"
+                        alt="previous-song-button"
+                    />
+                    <img
+                        src="Assets/music-play.svg"
+                        class="pointer invert music-play-button"
+                        id="play-song"
+                        alt="play-button"
+                    />
+                    <img
+                        src="Assets/next-song.svg"
+                        class="pointer invert"
+                        id="next-song"
+                        alt="next-song-button"
+                    />
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    <script src="js/script.js"></script>
+    <script src="js/resp.js"></script>
+</html>

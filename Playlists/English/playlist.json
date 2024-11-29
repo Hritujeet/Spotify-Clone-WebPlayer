@@ -1,0 +1,10 @@
+{
+    "playlistName":"English Hits",
+    "playlistDesc":"Top english Hits from the list wetsern world.",
+    "playlistCover":"Playlists/English/cover.jpg",
+    "songs":[
+        "Songs/Let me love you - Justin Bieber.mp3",
+        "Songs/Peaches - Justin Bieber.mp3",
+        "Songs/We don't talk Anymore - Charlie Puth.mp3"
+    ]
+}

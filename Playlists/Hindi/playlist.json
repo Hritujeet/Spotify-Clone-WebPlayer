@@ -1,0 +1,10 @@
+{
+    "playlistName":"Hindi Hits",
+    "playlistDesc":"Top Hindi Hits from all corners of the country.",
+    "playlistCover":"Playlists/Hindi/cover.webp",
+    "songs":[
+        "Songs/Aayi Nai(PagalWorld.com.sb).mp3",
+        "Songs/Rubican Drill.mp3",
+        "Songs/Satranga(PagalWorld.com.sb).mp3"
+    ]
+}

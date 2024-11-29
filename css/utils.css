@@ -1,0 +1,71 @@
+.gap-1{
+    gap: 1rem;
+}
+
+.padding-defualt{
+    padding: 0.5rem 1rem;
+}
+
+.padding-2{
+    padding: 1.7rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+
+.hoverAnimation:hover{
+    padding: 0.7rem 1.2rem;
+    font-size: large;
+}
+
+.bg-dark-grey{
+    background-color: #121212;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #191919;
+    color: white; 
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.responsiveLeft{
+    left: 0;
+}
