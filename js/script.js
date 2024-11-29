@@ -1,5 +1,5 @@
 async function fetchPlaylistData() {
-    const response = await fetch("http://127.0.0.1:5500/playlists/");
+    const response = await fetch("../Playlists");
     const rawHTML = await response.text();
 
     // Parse HTML and extract playlist items
