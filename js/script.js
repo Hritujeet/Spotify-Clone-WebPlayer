@@ -1,5 +1,5 @@
 async function fetchPlaylistData() {
-    const response = await fetch("https://hritujeet.github.io/Spotify-Clone-WebPlayer/Playlists");
+    const response = await fetch("http://127.0.0.1:5500/playlists/");
     const rawHTML = await response.text();
 
     // Parse HTML and extract playlist items
@@ -21,7 +21,7 @@ async function fetchPlaylistData() {
     const playListData = await Promise.all(
         playlists.map(async (playlist) => {
             const response = await fetch(
-                `https://hritujeet.github.io/Spotify-Clone-WebPlayer/Playlists/${playlist.playlistURL}/playlist.json`
+                `${playlist.playlistURL}/playlist.json`
             );
             return response.json();
         })
