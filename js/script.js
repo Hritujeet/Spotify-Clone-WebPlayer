@@ -1,5 +1,5 @@
 async function fetchPlaylistData() {
-    const response = await fetch("https://hritujeet.github.io/Spotify-Clone-WebPlayer/Playlists");
+    const response = await fetch("Playlists/");
     const rawHTML = await response.text();
 
     // Parse HTML and extract playlist items
