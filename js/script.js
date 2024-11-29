@@ -21,7 +21,7 @@ async function fetchPlaylistData() {
     const playListData = await Promise.all(
         playlists.map(async (playlist) => {
             const response = await fetch(
-                `${playlist.playlistURL}/playlist.json`
+                `https://hritujeet.github.io/Spotify-Clone-WebPlayer/Playlists/${playlist.playlistURL}/playlist.json`
             );
             return response.json();
         })
